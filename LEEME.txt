@@ -1,0 +1,12 @@
+CINE MUNDO - App Android (abre cinemundo.com.ar)
+
+1. Descomprimir la carpeta.
+2. Android Studio > File > Open > elegir la carpeta CineMundoApp.
+   La primera vez descarga Gradle y las herramientas (tarda unos minutos).
+3. Probar: enchufar el celular con "Depuración USB" activada y apretar Run (triángulo verde).
+4. Generar el APK: Build > Generate Signed App Bundle / APK > APK.
+   (Para Google Play elegir "Android App Bundle" en lugar de APK.)
+
+Para cambiar la dirección: MainActivity.java, línea URL_INICIO.
+Para cambiar el nombre: res/values/strings.xml.
+Para cambiar el ícono: clic derecho en "res" > New > Image Asset.
